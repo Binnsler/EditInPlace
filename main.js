@@ -3,7 +3,7 @@ $(document).on('ready', function(){
 	// On click, hide the element and create input (for Name)
 	$('.profile-name').on('click', function(){
 		$('.profile-name').hide();
-		$('.text-div').prepend('<input type="text" class="name-input" value="Enter Name">');
+		$('.profile-name').after('<input type="text" class="name-input" value="Enter Name">');
 		$('.name-input').focus();
 	});
 
@@ -18,7 +18,7 @@ $(document).on('ready', function(){
 	// Same for the Bio
 	$('.profile-bio').on('click', function(){
 		$('.profile-bio').hide();
-		$('.text-div').append('<input type="text" class="bio-input" value="You have 160 characters for your life story.">');
+		$('.profile-bio').after('<input type="text" class="bio-input" value="You have 160 characters for your life story.">');
 		$('.bio-input').focus();
 	});
 
@@ -39,7 +39,7 @@ $(document).on('ready', function(){
 // 	$('.editable').on('click', function(){
 // 		var $edit = $(this);
 // 		$edit.hide();
-// 		$edit.parent().append('<input class="editable-input" type="text" value="Write here">');
+// 		$edit().after('<input class="editable-input" type="text" value="Write here">');
 // 		$('.editable-input').focus();
 
 // 		$('body').on('blur', '.editable-input', function(){
