@@ -1,0 +1,50 @@
+
+/*  DEFAULT CSS  */
+
+.profile-header-container{
+	background-color: #1ab193;
+	overflow: hidden;
+	position: relative;
+
+}
+
+.profile-image{
+	float: left;
+	padding: 5vh 2.5%;
+	vertical-align: middle;
+	display: inline-block;
+	width: 20%;
+}
+
+.text-div{
+	position: absolute;
+	top: 50%;
+	transform: translatey(-50%);
+	left: 30%;
+	display: inline-block;
+
+}
+
+.profile-name{
+	font-size: 5em;
+	margin: 0 auto;
+	color: white;
+}
+
+.profile-bio{
+	color: white;
+	font-size: 1.2em;
+}
+
+
+/*  JQUERY CSS  */
+
+.name-input{
+	width: 30%;
+	height: 6vh;
+}
+
+.bio-input{
+	width: 250%;
+	height: 5vh;
+}
