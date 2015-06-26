@@ -35,6 +35,9 @@
 	color: white;
 	font-size: 1.2em;
 }
+h3 {
+	color: white;
+}
 
 
 /*  JQUERY CSS  */
@@ -42,9 +45,15 @@
 .name-input{
 	width: 30%;
 	height: 6vh;
+
 }
 
 .bio-input{
 	width: 250%;
+	height: 5vh;
+}
+
+.random-input{
+	width: 40%;
 	height: 5vh;
 }
